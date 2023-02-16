@@ -1,0 +1,11 @@
+* gauss
+*Gauss is a program to calculate the system of equations to each value with the example input*
+** How to use
+#+BEGIN_SRC
+gauss [flags] [parameters] input
+flags:
+        -l <filename>   : Latex output to filename
+        -d              : Print over every iteration
+#+END_SRC
+** Latex
+For latex output you have to have ~pdflatex~ program with ~amsmath~ and ~parskip~ packages.
